@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Abrir index.php en el navegador",
+            "type": "shell",
+            "command": "./open_browser.bat", // Cambia a ./open_browser.sh si estás en macOS/Linux
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
